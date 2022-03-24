@@ -13,8 +13,8 @@ public class ComplaintController {
     private ComplaintService compServ;
 
     @PostMapping
-    public void addComplaint(@RequestBody Complaints comp){
-        compServ.addComplaint(comp);
+    public Complaints addComplaint(@RequestBody Complaints comp){
+       return compServ.addComplaint(comp);
     }
 
     @GetMapping("/{id}")
