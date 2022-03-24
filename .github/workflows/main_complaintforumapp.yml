@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ComplaintForumApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DD1E31661874929AF00ED1A405BEA1D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_93251902F23744EC81D6A01262178E2E }}
           package: '*.jar'
